@@ -1,7 +1,15 @@
-.container-fluid {
+body {
     background-color: crimson;
 }  
 
 .nav-link {
     color:gold
+}
+
+.navbar-brand {
+    color:gold
+}
+
+.container-fluid {
+    background-color: black
 }
