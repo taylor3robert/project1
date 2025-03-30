@@ -1,0 +1,14 @@
+h1  {
+    color: blueviolet;
+}
+
+.carousel {
+    max-width: 600px;
+    margin:auto
+}
+
+.carouselImages {
+    min-width: 600px;
+    max-height:400px;
+    max-width: 600px
+}
