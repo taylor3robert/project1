@@ -8,7 +8,37 @@
     <title>Vehicles</title>
 </head>
 <body>
-    <h1>Vehicles</h1>
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./vehicles.html">Vehicles</a>
+              <li class="nav-item">
+                  <a class="nav-link" href="./appoinments.html">Appointments</a>
+                </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Vehicle Acquisition</a></li>
+                <li><a class="dropdown-item" href="#">Detailing</a></li>
+                <li><a class="dropdown-item" href="#">Luxury Transport</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>  
+  <h1>Vehicles</h1>
     <section class="container-fluid">
       <div class=row>
         <div class="col">
@@ -35,7 +65,7 @@
         </div>
         <div class="col">
           <div class="card" style="width: 13rem;">
-            <img src="images/gmcar.JPG" class="card-img-top" alt="gmcar">
+            <img src="./images/sidecar.webp" class="card-img-top" alt="sidecar">
             <div class="card-body">
               <h5 class="card-title">All Highway Miles</h5>
               <p class="card-text">Service records upon request</p>
@@ -44,7 +74,24 @@
           </div>
         </div>
       </div>
+
+      <div class="col">
+        <div class="card" style="width: 13rem;">
+          <img src="./images/gmcar.JPG" class="card-img-top" alt="gmcar">
+          <div class="card-body">
+            <h5 class="card-title">All Highway Miles</h5>
+            <p class="card-text">Service records upon request</p>
+            <a href="./appoinments.html" class="btn btn-primary">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      
     </section>
+      <footer>
+    All Rights Reserved
+      </footer>
 
 
     
