@@ -12,3 +12,11 @@ h1  {
     max-height:400px;
     max-width: 600px
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
