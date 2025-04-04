@@ -8,9 +8,8 @@
     <title>Appoinments</title>
 </head>
 <body>
-    <header class="container-fluid">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
           <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,53 +36,67 @@
           </div>
         </div>
       </nav>
-    </header>
-      <main>
-        <h1>Book an Appoinment</h1>
-        <form action="./index.html" method="get">
-          <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="First name">
+      
+      
+    <main>
+      
+      <h1>Book an Appoinment</h1>
+      
+         
+      <form action="./index.html" method="get">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="Firstname"></label>
+              <input type="Firstname" class="form-control" id="name" placeholder="First Name">
             </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Last name">
+        </form>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="Lastname"></label>
+              <input type="Lastname" class="form-control" id="name" placeholder="Last Name">
             </div>
-          </div>
-          <form>
+        </form>
+           
+        
+        <form>
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputEmail4"></label>
                 <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
               </div>
-              
-            </div>
-            <div class="form-group">
-              <label for="inputTelephone"></label>
-              <input type="text" class="form-control" id="inputTelephone" placeholder="Telephone">
-            </div>
-            <form>
-              <div class="form-row align-items-center">
+        </form>
+
+            
+        <form>
+             <div class="form-group col-md-6">
+               <label for="inputTelephone"></label>
+               <input type="text" class="form-control" id="inputTelephone" placeholder="Telephone">
+             </div>
+        </form>
+
+        <form>
+           
+          <div class="form-row align-items-center">
+              <div class="col-auto my-1">
+                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect"><em>SERVICES REQUESTED</em></label>
+                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                  <option selected>Select</option>
+                  <option value="1">Vehicle Acquisition</option>
+                  <option value="2">Detailing</option>
+                  <option value="3">Luxury Transport</option>
+                </select>
+              </div>
                 <div class="col-auto my-1">
-                  <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">SERVICES REQUESTED</label>
-                  <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                    <option selected>Select</option>
-                    <option value="1">Vehicle Acquisition</option>
-                    <option value="2">Detailing</option>
-                    <option value="3">Luxury Transport</option>
-                  </select>
-                </div>
-                
-                <div class="col-auto my-1">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                <input type="submit" value="Submit">
                 </div>
               </div>
-            </form>
-
-
-
-          </form>
-        
-      </main>
+         </form>
+          
+      </form>
+      
+    </main>
       
     </header>
     <div class="footer">
